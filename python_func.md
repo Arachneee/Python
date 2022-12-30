@@ -1,4 +1,4 @@
-# 함수 정리
+# function Summary
 
 ## Pandas
 
@@ -8,4 +8,4 @@
 
 ## 
 
-## 기타
+## etc.
