@@ -6,11 +6,12 @@
 
 ## matplotlib
 
-## urllib
+### urllib
 
 * url에서 소스파일 가져오기
 
-'''python   
+<pre>
+<code>  
 import os
 import tarfile
 import urllib
@@ -26,7 +27,8 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
     housing_tgz = tarfile.open(tgz_path)
     housing_tgz.extractall(path=housing_path)
     housing_tgz.close()
-'''
+</pre>
+</code> 
 
 
 ## etc.
