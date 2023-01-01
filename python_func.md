@@ -65,3 +65,10 @@ def split_train_test_by_id(data, test_ratio, id_column):
 
 
 ## etc.
+
+* correlation (-1~1)
+
+```python
+corr_matrix = housing.corr()
+
+```
