@@ -19,3 +19,8 @@ df = df.cat.remove_unused_categories()          # to remove unuse category
 * show graph in jupyter notebook
 
 %matplotlib inline
+
+* stop making broken "-" in plt 
+```python
+plt.rcParams['axes.unicode_minus'] = False
+```
