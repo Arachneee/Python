@@ -19,6 +19,11 @@ df = df.sample(n = 1000, random_state = 1)
 
 ## Numpy
 
+* Fill number interval
+
+```python
+np.linspace(-4, 4, 9)
+```
 
 ## matplotlib
 
