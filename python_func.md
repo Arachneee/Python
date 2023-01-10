@@ -19,10 +19,23 @@ df = df.sample(n = 1000, random_state = 1)
 
 ## Numpy
 
-* Fill number interval
+* Fill number interval and reshape
 
 ```python
 np.linspace(-4, 4, 9)
+#output : array([-4., -3., -2., -1.,  0.,  1.,  2.,  3.,  4.])
+
+np.linspace(-4, 4, 9).reshape(-1, 1)
+#output : array([[-4.],
+       [-3.],
+       [-2.],
+       [-1.],
+       [ 0.],
+       [ 1.],
+       [ 2.],
+       [ 3.],
+       [ 4.]])
+
 ```
 
 ## matplotlib
