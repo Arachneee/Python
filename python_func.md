@@ -32,8 +32,8 @@ np.linspace(-4, 4, 9).reshape(-1, 1)
 
 * merge array
 ```python
-np.r_[A,B]
-np.c_[A,B]
+np.r_[A,B] # row
+np.c_[A,B] # column
 ```
 
 ## matplotlib
