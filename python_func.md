@@ -1,5 +1,13 @@
 # Function Summary
 
+## Basic
+
+* call parents class
+
+```python
+super().__init__()
+```
+
 ## Pandas
 
 * If column is category type, i drop index but category remain.
