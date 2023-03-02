@@ -23,7 +23,12 @@ df = df.cat.remove_unused_categories()          # to remove unuse category
 ```python
 df = df.sample(n = 1000, random_state = 1) 
 ```
+* change NULL to other column
 
+```python
+df_2['C2_New'] = np.where(pd.notnull(df_2['C2']) == True, 
+                          df_2['C2'], df_2['C1'])
+```
 
 ## Numpy
 
